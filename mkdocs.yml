@@ -1,0 +1,28 @@
+site_name: Power PMAC Documentation
+site_description: Global technical documentation for Power PMAC Multi-Axis Motion Controller
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/index.md
+      - First Motion Example: getting-started/first-motion.md
+  - Hardware: hardware/index.md
+  - Software Setup: software-setup/index.md
+  - Programming: programming/index.md
+  - Motion Concepts:
+      - PID Tuning: motion-concepts/pid-tuning.md
+  - Examples: examples/index.md
+  - Application Notes: application-notes/index.md
+  - Troubleshooting:
+      - Common Errors: troubleshooting/common-errors.md
+  - Advanced Topics: advanced/index.md
+  - Downloads: downloads/index.md
