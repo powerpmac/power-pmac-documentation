@@ -1,5 +1,6 @@
 site_name: Power PMAC Documentation
 site_description: Global technical documentation for Power PMAC Multi-Axis Motion Controller
+docs_dir: docs
 
 theme:
   name: material
