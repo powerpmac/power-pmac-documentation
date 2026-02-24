@@ -53,18 +53,16 @@ plugins:
   - search
   - tags
 
-  # Multi-language support (mkdocs-static-i18n)
-  # Install: pip install mkdocs-static-i18n
   - i18n:
       default_language: en
-      languages:
-        en: English
-        ja: 日本語
-      # If a page doesn't exist in Japanese, show English instead
       fallback_to_default: true
-      # Keeps URLs clean (English doesn't get /en/)
       reconfigure_material: true
-
+      languages:
+        - locale: en
+          name: English
+          default: true
+        - locale: ja
+          name: 日本語
   # PDF export (mkdocs-with-pdf)
   # Install: pip install mkdocs-with-pdf
   # Generates a PDF when env var ENABLE_PDF_EXPORT is set (recommended for CI)
