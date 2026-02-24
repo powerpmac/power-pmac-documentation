@@ -54,22 +54,17 @@ plugins:
   - tags
 
   - i18n:
-      default_language: en
+      docs_structure: folder
       fallback_to_default: true
       reconfigure_material: true
       languages:
         - locale: en
           name: English
           default: true
+          build: true
         - locale: ja
           name: 日本語
-
-  - with-pdf:
-      enabled_if_env: ENABLE_PDF_EXPORT
-      output_path: pdf/power-pmac-docs.pdf
-      cover_title: "Power PMAC Documentation"
-      cover_subtitle: "Global Customer Documentation Portal"
-      toc_title: "Table of Contents"
+          build: true
       
 markdown_extensions:
   - attr_list
