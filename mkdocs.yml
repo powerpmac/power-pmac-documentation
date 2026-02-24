@@ -16,7 +16,6 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.top
-    - navigation.instant
     - navigation.tracking
 
     - search.highlight
