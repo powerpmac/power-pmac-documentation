@@ -1,18 +1,30 @@
+site_name: Power PMAC Documentation
+site_description: Global technical documentation for Power PMAC Multi-Axis Motion Controller
+site_url: https://piyushirode.github.io/power-pmac-docs/
+
+# Repo link shown in header (optional but recommended)
+repo_url: https://github.com/piyushirode/power-pmac-docs
+repo_name: piyushirode/power-pmac-docs
+
 theme:
   name: material
   logo: assets/omron-logo.png
-  favicon: assets/omron-favicon.png   # optional
+  # If you don't have a favicon yet, comment this line out
+  # favicon: assets/omron-favicon.png
+
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.top
+    - navigation.instant
+    - navigation.tracking
+
     - search.highlight
     - search.suggest
     - search.share
+
     - content.code.copy
     - content.tabs.link
-    - navigation.instant
-    - navigation.tracking
 
   palette:
     - scheme: default
@@ -27,3 +39,79 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+
+# Version selector (works with mike deployments)
+extra:
+  version:
+    provider: mike
+  # Optional: footer / social links
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/piyushirode/power-pmac-docs
+
+plugins:
+  - search
+  - tags
+
+  # Multi-language support (mkdocs-static-i18n)
+  # Install: pip install mkdocs-static-i18n
+  - i18n:
+      default_language: en
+      languages:
+        en: English
+        ja: 日本語
+      # If a page doesn't exist in Japanese, show English instead
+      fallback_to_default: true
+      # Keeps URLs clean (English doesn't get /en/)
+      reconfigure_material: true
+
+  # PDF export (mkdocs-with-pdf)
+  # Install: pip install mkdocs-with-pdf
+  # Generates a PDF when env var ENABLE_PDF_EXPORT is set (recommended for CI)
+  - with-pdf:
+      enabled_if_env: ENABLE_PDF_EXPORT
+      output_path: pdf/power-pmac-docs.pdf
+      cover_title: "Power PMAC Documentation"
+      cover_subtitle: "Global Customer Documentation Portal"
+      toc_title: "Table of Contents"
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# NAV (paths are relative to /docs)
+nav:
+  - Home: index.md
+
+  - Learning Path:
+      - Beginner: learning-path/beginner.md
+      - Intermediate: learning-path/intermediate.md
+      - Advanced: learning-path/advanced.md
+
+  - Getting Started:
+      - Overview: getting-started/index.md
+      - First Motion Example: getting-started/first-motion.md
+
+  - Hardware: hardware/index.md
+  - Software Setup: software-setup/index.md
+  - Programming: programming/index.md
+
+  - Motion Concepts:
+      - PID Tuning: motion-concepts/pid-tuning.md
+
+  - Examples: examples/index.md
+  - Application Notes: application-notes/index.md
+
+  - Troubleshooting:
+      - Common Errors: troubleshooting/common-errors.md
+
+  - Advanced Topics: advanced/index.md
+  - Downloads: downloads/index.md
