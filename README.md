@@ -27,7 +27,7 @@ This documentation supports:
 
 Access the published documentation site here:
 
-👉 [Power PMAC Documentation Portal](https://your-org.github.io/power-pmac-docs/)
+👉 [Power PMAC Documentation Portal](https://piyushirode.github.io/power-pmac-docs/)
 
 ## 📘 Learning Path
 
