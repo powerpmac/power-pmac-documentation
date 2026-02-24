@@ -63,16 +63,14 @@ plugins:
           default: true
         - locale: ja
           name: 日本語
-  # PDF export (mkdocs-with-pdf)
-  # Install: pip install mkdocs-with-pdf
-  # Generates a PDF when env var ENABLE_PDF_EXPORT is set (recommended for CI)
+
   - with-pdf:
       enabled_if_env: ENABLE_PDF_EXPORT
       output_path: pdf/power-pmac-docs.pdf
       cover_title: "Power PMAC Documentation"
       cover_subtitle: "Global Customer Documentation Portal"
       toc_title: "Table of Contents"
-
+      
 markdown_extensions:
   - attr_list
   - md_in_html
