@@ -29,7 +29,10 @@ jobs:
             "mkdocs<2" \
             "mkdocs-material<10" \
             mike \
-            mkdocs-static-i18n
+            mkdocs-static-i18n \
+            pymdown-extensions \
+            mkdocs-git-revision-date-localized-plugin \
+            mkdocs-rss-plugin
 
       - name: Configure Git
         run: |
@@ -40,4 +43,3 @@ jobs:
         run: |
           mike deploy --push --update-aliases latest
           mike set-default --push latest
-          
