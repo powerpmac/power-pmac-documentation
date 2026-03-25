@@ -1,10 +1,8 @@
-name: Deploy Docs (MkDocs + mike)
+name: Deploy versioned MkDocs (mike) to GitHub Pages
 
 on:
   push:
     branches: [ "main" ]
-    tags:
-      - "v*.*.*"
   workflow_dispatch:
 
 permissions:
@@ -13,26 +11,41 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
+          python-version: "3.11"
 
-      - run: pip install mkdocs-material mike mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin mkdocs-static-i18n
-      # Deploy DEV snapshot on every push to main (optional but very useful)
-      - name: Deploy dev
-        if: startsWith(github.ref, 'refs/heads/main')
+      - name: Install dependencies
         run: |
-          mike deploy --push dev
+          pip install \
+            "mkdocs<2" \
+            "mkdocs-material<10" \
+            mike \
+            mkdocs-static-i18n \
+            pymdown-extensions \
+            mkdocs-git-revision-date-localized-plugin \
+            mkdocs-rss-plugin
 
-      # Deploy a version on tag push, update latest
-      - name: Deploy release version
-        if: startsWith(github.ref, 'refs/tags/v')
+      # ✅ FIX: Configure Git properly
+      - name: Configure Git
         run: |
-          VER=${GITHUB_REF_NAME#v}
-          mike deploy --push --update-aliases $VER latest
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+
+      # ✅ Optional debug (helps confirm config)
+      - name: Debug Git config
+        run: git config --list
+
+      - name: Deploy latest version
+        run: |
+          mike deploy --push --update-aliases latest
           mike set-default --push latest
