@@ -22,8 +22,7 @@ jobs:
         with:
           python-version: "3.x"
 
-      - run: pip install mkdocs-material mike mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin
-
+      - run: pip install mkdocs-material mike mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin mkdocs-static-i18n
       # Deploy DEV snapshot on every push to main (optional but very useful)
       - name: Deploy dev
         if: startsWith(github.ref, 'refs/heads/main')
