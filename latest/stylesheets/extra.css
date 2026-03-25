@@ -1,0 +1,122 @@
+/* ================================
+   HERO SECTION
+================================= */
+
+.hero {
+  padding: 1.2rem;
+  border-radius: 1rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  background: var(--md-default-bg-color);
+  margin-bottom: 1rem;
+}
+
+.hero h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+
+/* ================================
+   CARD GRID
+================================= */
+
+.grid.cards {
+  display: grid;
+  gap: 0.75rem;
+}
+
+@media (min-width: 900px) {
+  .grid.cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+/* ================================
+   SIDEBAR CUSTOMIZATION
+================================= */
+
+/* Hide the first top-level section label
+   (e.g., "Application Notes") in left sidebar */
+.md-sidebar--primary .md-nav--primary > .md-nav__list > .md-nav__item:first-child {
+  display: none !important;
+}
+
+/* Optional: Hide ALL section labels in left sidebar */
+/*
+.md-sidebar--primary .md-nav__item--section > .md-nav__link {
+  display: none !important;
+}
+*/
+
+
+/* ================================
+   INCREASE INDENT FOR SUB ITEMS
+================================= */
+
+/* Add extra indentation to nested navigation lists */
+.md-sidebar--primary .md-nav--primary .md-nav__list .md-nav__list {
+  padding-left: 1rem;
+}
+
+/* Increase padding on nested links */
+.md-sidebar--primary .md-nav--primary .md-nav__list .md-nav__list .md-nav__link {
+  padding-left: 1rem;
+}
+
+.btn-compact {
+  font-size: 0.85rem;
+  padding: 0.35rem 0.8rem;
+  min-height: auto;
+  line-height: 0.5;
+}
+
+/* ================================
+   OPTIONAL: Hide main page title (H1)
+   Uncomment if needed
+================================= */
+
+/*
+.md-content h1 {
+  display: none;
+}
+*/
+/* Gradient main heading text */
+.cool-title {
+  background: linear-gradient(90deg, #0d47a1 0%, #00897b 55%, #ef6c00 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+}
+
+[data-md-color-scheme="slate"] .cool-title {
+  background: linear-gradient(90deg, #90caf9 0%, #80cbc4 55%, #ffcc80 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* Colored phase headings */
+.phase-title {
+  font-weight: 750;
+}
+
+.phase-1 { color: #1565c0; }
+.phase-2 { color: #1565c0; }
+.phase-3 { color: #1565c0; }
+.phase-4 { color: #1565c0; }
+
+[data-md-color-scheme="slate"] .phase-1 { color: #1565c0; }
+[data-md-color-scheme="slate"] .phase-2 { color: #1565c0; }
+[data-md-color-scheme="slate"] .phase-3 { color: #1565c0; }
+[data-md-color-scheme="slate"] .phase-4 { color: #1565c0; }
+
+.phase-5 { color: #d81b60; }
+[data-md-color-scheme="slate"] .phase-5 { color: #f48fb1; }
