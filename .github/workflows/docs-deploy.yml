@@ -1,0 +1,39 @@
+name: Deploy Docs (MkDocs + mike)
+
+on:
+  push:
+    branches: [ "main" ]
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - run: pip install mkdocs-material mike mkdocs-git-revision-date-localized-plugin mkdocs-rss-plugin
+
+      # Deploy DEV snapshot on every push to main (optional but very useful)
+      - name: Deploy dev
+        if: startsWith(github.ref, 'refs/heads/main')
+        run: |
+          mike deploy --push dev
+
+      # Deploy a version on tag push, update latest
+      - name: Deploy release version
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          VER=${GITHUB_REF_NAME#v}
+          mike deploy --push --update-aliases $VER latest
+          mike set-default --push latest

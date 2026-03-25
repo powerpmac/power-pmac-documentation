@@ -1,0 +1,125 @@
+site_name: Power PMAC Document Repository
+site_description: Global technical documentation for Power PMAC Multi-Axis Motion Controller
+site_url: https://piyushirode.github.io/power-pmac-docs/
+
+# Repo link shown in header (optional but recommended)
+repo_url: https://github.com/piyushirode/power-pmac-docs
+repo_name: piyushirode/power-pmac-docs
+markdown_extensions:
+  - md_in_html
+  - attr_list
+theme:
+  name: material
+  logo: assets/Omron-logo.png
+  # If you don't have a favicon yet, comment this line out
+  # favicon: assets/omron-favicon.png
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+
+    - search.highlight
+    - search.suggest
+    - search.share
+
+    - content.code.copy
+    - content.tabs.link
+
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+extra_css:
+  - stylesheets/extra.css
+
+# Version selector (works with mike deployments)
+extra:
+  version:
+    provider: mike
+  # Optional: footer / social links
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/piyushirode/power-pmac-docs
+
+plugins:
+  - search
+  - tags
+
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: ja
+          name: 日本語
+          build: true
+      
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+# NAV (paths are relative to /docs)
+nav:
+  - Home: index.md
+
+#  - Getting Started: getting-started/index.md
+
+#  - Manuals:
+#      - Power PMAC UMAC: manuals/umac/index.md
+#      - Power Brick LV: manuals/power-brick-lv/index.md
+#      - Power Brick AC: manuals/power-brick-ac/index.md
+#      - Power PMAC CK Series:
+#          - CK3M: manuals/ck-series/ck3m.md
+#          - CK5M: manuals/ck-series/ck5m.md
+#          - CK3C: manuals/ck-series/ck3c.md
+#          - CK3E: manuals/ck-series/ck3e.md
+  - Application Notes:
+      - Overview: application-notes/index.md
+ 
+  - Advanced Solutions:
+      - Overview: advanced-solutions/index.md
+      - Delta Robot Kinematics: advanced-solutions/delta-robot.md
+      - Dual Link SCARA Robot Kinematics : advanced-solutions/dual-link-scara-robot.md
+      - Hexapod Robot Kinematics: advanced-solutions/hexapod-robot.md
+      - Six Axis Robot Kinematics: advanced-solutions/six-axis-robot.md
+      - Gantry Skew Control: advanced-solutions/gantry-skew-control.md
+
+  - Learning:
+      - Beginner: learning/beginner.md
+      - Intermediate: learning/intermediate.md
+      - Advanced: learning/
+      - Software Setup: software-setup/index.md
+      - Programming: programming/index.md
+      - Motion Concepts: motion-concepts/index.md
+      - Advanced Topics: advanced/index.md
+      - Examples: examples/index.md
+  - Videos:
+    - Video Tutorials: videos/index.md
+    - Getting Started Videos: "videos/#getting-started-videos"
+    - Full Playlist Power PMAC: "videos/#full-playlist-power-pmac"
+    - PMAC Feature: "videos/#pmac-feature"
+    - For More Feature / Application Videos: "videos/#for-more-feature-application-videos"
+  - Ideas: ideas/index.md

@@ -1,13 +1,43 @@
+# Application Notes & Technical Library
 
-# Application Notes
+Explore technical resources for Power PMAC motion control systems.
 
-Industry-specific application notes and best practices.
+<div class="grid cards" markdown>
 
-## Industries
+- :material-robot-industrial: **Motion & Kinematics**
 
-- Packaging
-- Semiconductor
-- Robotics
-- Machine tools
+  Advanced robotic transforms and coordinated motion libraries.
 
-Content coming soon.
+  [Browse Motion Notes](motion-kinematics/index.md)
+
+- :material-lan-connect: **EtherCAT & Networking**
+
+  Drive integration, clock synchronization, and distributed control.
+
+  [Browse EtherCAT Notes](ethercat-network/index.md)
+
+- :material-cog-outline: **System Configuration**
+
+  Firmware, controller setup, and hardware configuration guides.
+
+  [Browse System Notes](system-configuration/index.md)
+
+- :material-speedometer: **Performance & Optimization**
+
+  Tuning, diagnostics, and motion performance improvement.
+
+  [Browse Performance Notes](performance-optimization/index.md)
+
+- :material-swap-horizontal: **Migration & Legacy**
+
+  Transitioning from Turbo PMAC and legacy systems.
+
+  [Browse Migration Notes](migration-legacy/index.md)
+
+- :material-alert-circle: **Troubleshooting**
+
+  Common errors, diagnostics, and recovery guidance.
+
+  [Browse Troubleshooting Notes](troubleshooting/index.md)
+
+</div>
