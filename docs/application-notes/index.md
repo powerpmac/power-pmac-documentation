@@ -44,5 +44,5 @@ Explore technical resources for Power PMAC motion control systems.
 
 
 !!! info "Need a Application Note?"
-    [Request Application Notes](../request-documents.md){ .md-button .md-button--primary .btn-compact }
+    [Request Application Notes](https://forms.cloud.microsoft/r/sM9gfnG7gU){ .md-button .md-button--primary .btn-compact }
 
