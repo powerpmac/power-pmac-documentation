@@ -41,3 +41,8 @@ Explore technical resources for Power PMAC motion control systems.
   [Browse Troubleshooting Notes](troubleshooting/index.md)
 
 </div>
+
+
+!!! info "Need a Application Note?"
+    [Request Application Notes](../request-documents.md){ .md-button .md-button--primary .btn-compact }
+
