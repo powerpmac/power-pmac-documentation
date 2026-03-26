@@ -13,6 +13,12 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://powerpmac.github.io/power-pmac-docs/latest/changelog/"/>
     </url>
     <url>
+        <loc>https://powerpmac.github.io/power-pmac-docs/latest/request-documents/</loc>
+        <lastmod>2026-03-26</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://powerpmac.github.io/power-pmac-docs/latest/request-documents/"/>
+    </url>
+    <url>
         <loc>https://powerpmac.github.io/power-pmac-docs/latest/whats-new/</loc>
         <lastmod>2026-03-26</lastmod>
         <changefreq>daily</changefreq>
