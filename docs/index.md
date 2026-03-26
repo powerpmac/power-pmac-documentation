@@ -45,3 +45,7 @@
     [:octicons-arrow-right-24: Start Advanced Path](learning/advanced/)
 
 </div>
+
+
+!!! info "Need a Application Note?"
+    [Request Application Notes](../request-documents.md){ .md-button .md-button--primary .btn-compact }
