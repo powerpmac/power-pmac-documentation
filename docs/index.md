@@ -1,5 +1,3 @@
-!!! info "Need a Application Note?"
-    [Request Application Notes](https://forms.cloud.microsoft/r/sM9gfnG7gU){ .md-button .md-button--primary .btn-compact }
 
 ## Quick Links
 
@@ -25,26 +23,5 @@
 
 ---
 
-## Learning Paths
-
-<div class="grid cards" markdown>
-
-- :material-rocket-launch: **Beginner**
-
-    Install tools, connect hardware, make first motion.
-
-    [:octicons-arrow-right-24: Start Beginner Path](learning/beginner/)
-
-- :material-axis-arrow: **Intermediate**
-
-    Multi-axis, EtherCAT, tuning, coordinated motion.
-
-    [:octicons-arrow-right-24: Start Intermediate Path](learning/intermediate/)
-
-- :material-brain: **Advanced**
-
-    Real-time tasks, custom kinematics, optimization.
-
-    [:octicons-arrow-right-24: Start Advanced Path](learning/advanced/)
-
-</div>
+!!! info "Need a Application Note?"
+    [Request Application Notes](https://forms.cloud.microsoft/r/sM9gfnG7gU){ .md-button .md-button--primary .btn-compact }
