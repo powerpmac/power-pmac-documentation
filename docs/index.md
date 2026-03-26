@@ -1,3 +1,6 @@
+!!! info "Need a Application Note?"
+    [Request Application Notes](https://forms.cloud.microsoft/r/sM9gfnG7gU){ .md-button .md-button--primary .btn-compact }
+
 ## Quick Links
 
 <div class="grid cards" markdown>
@@ -45,7 +48,3 @@
     [:octicons-arrow-right-24: Start Advanced Path](learning/advanced/)
 
 </div>
-
-
-!!! info "Need a Application Note?"
-    [Request Application Notes](https://forms.cloud.microsoft/r/sM9gfnG7gU){ .md-button .md-button--primary .btn-compact }
