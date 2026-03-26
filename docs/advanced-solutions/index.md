@@ -6,8 +6,6 @@ These solutions are available upon request and may require NDA approval.
 
 ## Available Solutions
 
-## Available Solutions
-
 - [Delta Robot Kinematics](delta-robot.md)
 - [Hexapod Robot Kinematics](hexapod-robot.md)
 - [Six Axis Robot Kinematics](six-axis-robot.md)
