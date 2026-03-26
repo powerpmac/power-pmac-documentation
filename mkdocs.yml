@@ -3,8 +3,8 @@ site_description: Global technical documentation for Power PMAC Multi-Axis Motio
 site_url: https://powerpmac.github.io/power-pmac-docs/
 
 # Repo link shown in header (optional but recommended)
-repo_url: https://github.com/powerpmac/power-pmac-documentation
-repo_name: powerpmac/power-pmac-documentation
+#repo_url: https://github.com/powerpmac/power-pmac-documentation
+#repo_name: powerpmac/power-pmac-documentation
 markdown_extensions:
   - md_in_html
   - attr_list
