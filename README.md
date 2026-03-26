@@ -27,25 +27,4 @@ This documentation supports:
 
 Access the published documentation site here:
 
-👉 [Power PMAC Documentation Portal](https://piyushirode.github.io/power-pmac-docs/)
-
-## 📘 Learning Path
-
-### Beginner
-- System Overview
-- First Axis Setup
-- First Motion Program
-
-### Intermediate
-- Multi-Axis Coordination
-- EtherCAT Integration
-- Servo Tuning
-
-### Advanced
-- Custom Kinematics
-- Real-Time Tasks
-- Deterministic Networking
-
----
-
-For support inquiries, contact your regional OMRON representative.
+👉 [Power PMAC Documentation Portal](https://powerpmac.github.io/power-pmac-documentation/)
