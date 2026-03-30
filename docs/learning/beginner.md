@@ -1,6 +1,9 @@
 # :material-school: <span class="cool-title">Beginner Learning Path</span>
 
 Follow along to learn how to configure a Power PMAC. Where possible, pick the material for your specific PMAC hardware.
+---
+!!! info "Need Training Material"
+    [Request Training Material](https://forms.cloud.microsoft/r/yr0WG1XvFz){ .md-button .md-button--primary .btn-compact }
 
 ## :material-rocket-launch: <span class="phase-title phase-1">Phase 1: Foundation (Start Here)</span>
 
@@ -77,9 +80,4 @@ Time to put everything together. Complete this after finishing all 4 phases. :sp
 - Exercise Setup
 - Beginners Final Exercise
 
----
-
-
-!!! info "Need Training Material"
-    [Request Training Material](https://forms.cloud.microsoft/r/yr0WG1XvFz){ .md-button .md-button--primary .btn-compact }
 
