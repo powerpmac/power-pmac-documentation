@@ -140,10 +140,6 @@
   margin-bottom: 1rem;
 }
 
-/* Prevent duplicate title spacing issues */
-.md-content h1:first-of-type {
-  display: none;
-}
 
 /* Optional: make button look tighter */
 .download-btn {
