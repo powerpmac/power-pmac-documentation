@@ -2,8 +2,9 @@
 
 Follow along to learn how to configure a Power PMAC. Where possible, pick the material for your specific PMAC hardware.
 
-!!! info "Need Training Material?"  Request Training Material (https://forms.cloud.microsoft/r/yr0WG1XvFz){ .md-button .md-button--primary .btn-compact }
-
+!!! info "Need Training Material?"
+    [Request Training Material](https://forms.cloud.microsoft/r/yr0WG1XvFz){ .md-button .md-button--primary .btn-compact }
+    
 ## :material-rocket-launch: <span class="phase-title phase-1">Phase 1: Foundation (Start Here)</span>
 
 Learn what Power PMAC is, how the Power PMAC IDE works, and how your hardware is structured.
