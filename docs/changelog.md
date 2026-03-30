@@ -1,4 +1,4 @@
-# Changelog
+# Change Log
 
 ## Unreleased
 - (auto / manual notes)
