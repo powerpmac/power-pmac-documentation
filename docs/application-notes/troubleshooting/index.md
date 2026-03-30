@@ -15,4 +15,5 @@ Common system issues, motion problems, and debugging guidance for Power PMAC sys
 
 ## 📊 Data & Diagnostics
 
-(Add additional troubleshooting PDFs here as needed)
+- Advanced Data Gathering on Power PMAC
+- Unsolicited Messages in Power PMAC
