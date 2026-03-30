@@ -139,9 +139,3 @@
   align-items: center;
   margin-bottom: 1rem;
 }
-
-
-/* Optional: make button look tighter */
-.download-btn {
-  white-space: nowrap;
-}
