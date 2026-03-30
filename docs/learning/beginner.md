@@ -9,8 +9,6 @@ Follow along to learn how to configure a Power PMAC. Where possible, pick the ma
 
 Learn what Power PMAC is, how the Power PMAC IDE works, and how your hardware is structured.
 
-PPMAC Training Introduction
-
 ### :material-cube-outline: Power Brick
 
 1. PBLV Hardware Overview
