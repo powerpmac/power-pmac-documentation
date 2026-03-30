@@ -5,7 +5,6 @@ site_url: https://powerpmac.github.io/power-pmac-docs/
 theme:
   name: material
   logo: assets/Cklogo.png
-  custom_dir: docs/overrides 
   # If you don't have a favicon yet, comment this line out
   # favicon: assets/omron-favicon.png
 
