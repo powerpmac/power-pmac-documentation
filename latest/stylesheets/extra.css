@@ -121,7 +121,7 @@
 .phase-5 { color: #d81b60; }
 [data-md-color-scheme="slate"] .phase-5 { color: #f48fb1; }
 
-.md-footer-meta {
+.md-footer-meta__inner {
   display: none;
 }
 
