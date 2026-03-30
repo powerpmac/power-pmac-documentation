@@ -20,8 +20,3 @@
     [:octicons-arrow-right-24: Open](videos/)
 
 </div>
-
----
-
-!!! info "Need a Application Note?"
-    [Request Application Notes](https://forms.cloud.microsoft/r/sM9gfnG7gU){ .md-button .md-button--primary .btn-compact }
