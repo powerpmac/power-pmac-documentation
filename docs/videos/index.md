@@ -4,7 +4,7 @@ hide:
 ---
 # Video Tutorials
 
-Learn Power PMAC through guided videos.
+Learn about Power PMAC through guided videos.
 
 ---
 
