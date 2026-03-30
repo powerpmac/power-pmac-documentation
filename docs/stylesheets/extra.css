@@ -120,3 +120,15 @@
 
 .phase-5 { color: #d81b60; }
 [data-md-color-scheme="slate"] .phase-5 { color: #f48fb1; }
+
+.md-footer-meta {
+  display: none;
+}
+
+.md-footer::after {
+  content: "© 2026 OMRON – Power PMAC Documentation";
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8rem;
+}
