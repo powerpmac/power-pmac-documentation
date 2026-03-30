@@ -128,7 +128,7 @@
 .md-footer::after {
   content: "© 2026 OMRON – Power PMAC Documentation";
   display: block;
-  text-align: center;
+  text-align: right;
   padding: 10px;
   font-size: 0.8rem;
 }
