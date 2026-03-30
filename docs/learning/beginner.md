@@ -1,10 +1,10 @@
 # :material-school: <span class="cool-title">Beginner Learning Path</span>
 
-Follow the same learning flow for both platforms. Pick your hardware in each phase.
+Follow along to learn how to configure a Power PMAC. Where possible, pick the material for your specific PMAC hardware.
 
 ## :material-rocket-launch: <span class="phase-title phase-1">Phase 1: Foundation (Start Here)</span>
 
-Learn what Power PMAC is, how IDE works, and how your hardware is organized.
+Learn what Power PMAC is, how the Power PMAC IDE works, and how your hardware is structured.
 
 PPMAC Training Introduction
 
@@ -20,11 +20,13 @@ PPMAC Training Introduction
 2. Power PMAC IDE Overview
 3. Power UMAC ACC24E3 Structures & Variables
 
+!!! tip
+    Finish one phase completely before moving to the next. This reduces setup errors and retuning.
 ---
 
 ## :material-axis-arrow: <span class="phase-title phase-2">Phase 2: Motion Basics</span>
 
-Build confidence with jog, home, coordinate systems, PLCs, and program flow.
+Build confidence with jog and home commands, coordinate systems, PLC programs, and the general program flow.
 
 ### :material-account-group: Shared (Power Brick + Power UMAC)
 
@@ -38,7 +40,7 @@ Build confidence with jog, home, coordinate systems, PLCs, and program flow.
 
 ## :material-cog-outline: <span class="phase-title phase-3">Phase 3: Hardware Configuration (Platform-Specific)</span>
 
-Complete controller and motor setup for your chosen platform.
+Finish strong by configuring the hardware for your system.
 
 ### :material-cube-outline: Power Brick
 
@@ -56,16 +58,13 @@ Complete controller and motor setup for your chosen platform.
 
 ## :material-chart-line: <span class="phase-title phase-4">Phase 4: Tuning and Validation</span>
 
-Tune loops in order and validate final motion quality.
+Tune your motors to optimize their performance.
 
 ### :material-account-group: Shared (Power Brick + Power UMAC)
 
 1. Current Loop Tuning
 2. Motor Phasing
 3. Position Loop Tuning
-
-!!! tip
-    Finish one phase completely before moving to the next. This reduces setup errors and retuning.
 
 ---
 
