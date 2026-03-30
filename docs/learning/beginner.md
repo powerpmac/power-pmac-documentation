@@ -1,7 +1,7 @@
 # :material-school: <span class="cool-title">Beginner Learning Path</span>
 
 Follow along to learn how to configure a Power PMAC. Where possible, pick the material for your specific PMAC hardware.
----
+
 !!! info "Need Training Material"
     [Request Training Material](https://forms.cloud.microsoft/r/yr0WG1XvFz){ .md-button .md-button--primary .btn-compact }
 
