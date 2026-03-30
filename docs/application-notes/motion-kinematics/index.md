@@ -2,6 +2,10 @@
 
 Advanced motion algorithms, robotic transformations, and coordinated multi-axis control solutions for Power PMAC systems.
 
+!!! info "Need a Application Note?"
+    [Request Application Notes](https://forms.cloud.microsoft/r/sM9gfnG7gU){ .md-button .md-button--primary .btn-compact }
+
+
 ---
 
 ## 🤖 Robot & Transform Libraries
