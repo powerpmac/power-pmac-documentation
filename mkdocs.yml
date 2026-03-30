@@ -2,9 +2,6 @@ site_name: Power PMAC Documentation
 site_description: Global technical documentation for Power PMAC Multi-Axis Motion Controller
 site_url: https://powerpmac.github.io/power-pmac-docs/
 
-markdown_extensions:
-  - md_in_html
-  - attr_list
 theme:
   name: material
   logo: assets/Cklogo.png
@@ -16,13 +13,10 @@ theme:
     - navigation.sections
     - navigation.top
     - navigation.tracking
-    - navigation.sections
     - navigation.expand
-
     - search.highlight
     - search.suggest
     - search.share
-
     - content.code.copy
     - content.tabs.link
 
@@ -41,8 +35,6 @@ extra_css:
   - stylesheets/extra.css
 extra_javascript:
   - javascripts/tasklist-persist.js
-
-
 # Version selector (works with mike deployments)
 extra:
   version:
@@ -99,8 +91,6 @@ nav:
 
   - Learning:
       - Beginner: learning/beginner.md
-      - Intermediate: learning/intermediate.md
-      - Advanced: learning/advanced.md
   - Videos:
       - Video Tutorials: videos/index.md
   - Updates:
