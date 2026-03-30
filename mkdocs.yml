@@ -40,6 +40,8 @@ extra:
   version:
     provider: mike
   # Optional: footer / social links
+    translations:
+    toc: "Table of Contents"
   
 plugins:
   - search
