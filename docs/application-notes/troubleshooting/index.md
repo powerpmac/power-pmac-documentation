@@ -2,6 +2,9 @@
 
 Common system issues, motion problems, and debugging guidance for Power PMAC systems.
 
+!!! info "Need a Application Note?"
+    [Request Application Notes](https://forms.cloud.microsoft/r/sM9gfnG7gU){ .md-button .md-button--primary .btn-compact }
+
 ---
 
 ## 🚨 Motion Performance Issues
