@@ -9,6 +9,7 @@ Drive configuration, clock synchronization, distributed control, and hardware in
 - Connecting Multiple Power PMACs over EtherCAT
 ---
 ## ⏱ Clock & Synchronization
+- Power PMAC EtherCAT Configuration and Synchronization Guide
 - Synchronizing PMAC and EtherCAT Clocks
 - Synchronizing Power PMAC to External Time Frequency
 - Varied ECAT Clock Synchronicity on PMAC
