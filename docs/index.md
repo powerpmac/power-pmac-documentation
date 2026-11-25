@@ -1,5 +1,5 @@
 
-## Quick Links 
+## Quick Links
 
 <div class="grid cards" markdown>
 
